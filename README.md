@@ -22,31 +22,31 @@ Verified the full SSO flow by logging in through the AWS access portal as the te
 
 Enabled the service at the organization level, which automatically creates an AWS Organization if one doesn't already exist.
 
-Show Image
+Enable IAM Identity Center.png
 
 # Step 2: Create a Test User
 
 Created a test identity to represent a new hire being onboarded.
 
-Show Image
+Create a Test User.png
 
 # Step 3: Create a Permission Set
 
 Built a permission set defining exactly what the test user can do once assigned in this case, read-only access, to keep the test safe and demonstrate least-privilege principles.
 
-Show Image
+Create a Permission Set.png
 
 # Step 4: Assign User to Account
 
 Linked the test user to a specific AWS account using the permission set  this is the step that actually grants access.
 
-Show Image
+Assign User to Account.png
 
 # Step 5: Verify End-to-End
 
 Logged in as the test user through the AWS access portal to confirm the SSO flow works  from identity to permission set to account access.
 
-Show Image
+Verify End-to-End.png
 
 Key Takeaway
 
